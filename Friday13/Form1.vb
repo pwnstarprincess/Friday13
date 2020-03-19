@@ -18,7 +18,8 @@ Public Class Form1
 
 
         '0 is not a year so just help the user out at set it to 0001.  
-        'Not nexessary but just in case some bug is found increment empty to 1
+        'Check for empty is not necessary here but just in case some bug is found 
+        'increment Empty to 1
         If Convert.ToInt16(YearBox.Text) = 0 Or String.IsNullOrEmpty(YearBox.Text) Then
             YearBox.Text = "0001"
         End If
