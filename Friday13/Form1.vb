@@ -25,7 +25,7 @@ Public Class Form1
         End If
 
         'variable to increment the number of Fridays
-        Dim fridays As Integer
+        Dim fridays As Integer = 0
         'Variable to hold the date
         Dim myDate As Date
 
@@ -44,6 +44,7 @@ Public Class Form1
 
         'Output total number of Fridays ast string for the given year
         MonthsBox.Text = CStr(fridays)
+
 
     End Sub
 
