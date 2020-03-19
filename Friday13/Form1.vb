@@ -1,6 +1,5 @@
 ﻿'Jennifer Pezzulo
 'Chapter 6.2 Question 36 Friday the 13th
-
 Public Class Form1
 
     'Boolean function returns true if date is Friday
