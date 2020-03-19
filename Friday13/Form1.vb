@@ -41,7 +41,7 @@ Public Class Form1
 
         Next
 
-        'Output total number of Fridays for the given year
+        'Output total number of Fridays ast string for the given year
         MonthsBox.Text = CStr(fridays)
 
     End Sub
