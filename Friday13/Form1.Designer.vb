@@ -34,14 +34,14 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(119, 20)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(47, 20)
+        Me.Label1.Size = New System.Drawing.Size(96, 20)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Year:"
+        Me.Label1.Text = "4 Digit Year:"
         '
         'YearBox
         '
         Me.YearBox.Location = New System.Drawing.Point(234, 20)
-        Me.YearBox.Mask = "####"
+        Me.YearBox.Mask = "0000"
         Me.YearBox.Name = "YearBox"
         Me.YearBox.Size = New System.Drawing.Size(100, 26)
         Me.YearBox.TabIndex = 1
