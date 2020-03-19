@@ -57,7 +57,8 @@ Public Class Form1
 
     Private Sub YearBox_MaskInputRejected(sender As Object, e As EventArgs) Handles YearBox.TextChanged
 
-        'Disable button if the Year is empty or not a 4 digit year
+        'Enable button if the Year is not empty or not a 4 digit year
+        'Otherwise, disable.  No point in clicking the button if input is not valid
         If Not String.IsNullOrEmpty(YearBox.Text) AndAlso Len(CStr(YearBox.Text)) = 4 Then
             Button1.Enabled = True
 
