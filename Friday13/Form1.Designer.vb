@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.YearBox = New System.Windows.Forms.TextBox()
+        Me.YearBox = New System.Windows.Forms.MaskedTextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.MonthsBox = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -41,6 +41,7 @@ Partial Class Form1
         'YearBox
         '
         Me.YearBox.Location = New System.Drawing.Point(234, 20)
+        Me.YearBox.Mask = "####"
         Me.YearBox.Name = "YearBox"
         Me.YearBox.Size = New System.Drawing.Size(100, 26)
         Me.YearBox.TabIndex = 1
@@ -90,7 +91,7 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents YearBox As TextBox
+    Friend WithEvents YearBox As MaskedTextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents MonthsBox As TextBox
     Friend WithEvents Button1 As Button
